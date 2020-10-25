@@ -18,7 +18,6 @@ public class ShipGenerator extends Thread {
             while (queueOfShips.haveFreeSpace()) {
                 queueOfShips.addShip(ShipGenerator.getRandomShip());
             }
-//            System.out.println(queueOfShips);
             try {
                 Thread.sleep(2L);
             } catch (Exception e) {

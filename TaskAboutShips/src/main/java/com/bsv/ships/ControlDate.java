@@ -5,15 +5,7 @@ public class ControlDate {
     private static long countReleasedShips = 0;
     private static int countExistShips = 0;
 
-//    private static ControlDate instance;
-
     private ControlDate () { }
-//    public static ControlDate controlDate() {
-//        if (instance == null) {
-//            instance = new ControlDate();
-//        }
-//        return instance;
-//    }
 
     public static long getDiffCreatedReleased() {
         return countReleasedShips - countCreatedShips;

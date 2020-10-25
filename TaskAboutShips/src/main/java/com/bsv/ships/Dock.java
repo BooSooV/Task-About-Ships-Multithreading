@@ -14,7 +14,6 @@ public class Dock extends Thread{
         this.ship = ship;
     }
     private void releaseShip() {
-//        System.out.println(productType + " - Released" + ship);
         ship = null;
         ControlDate.addReleasedShips();
     }
